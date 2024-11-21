@@ -1,0 +1,74 @@
+D:\320 Миронов Колмаков\praktika\SystemOfTests\bin\Debug\SystemOfTests.exe.config
+D:\320 Миронов Колмаков\praktika\SystemOfTests\bin\Debug\SystemOfTests.exe
+D:\320 Миронов Колмаков\praktika\SystemOfTests\bin\Debug\SystemOfTests.pdb
+D:\320 Миронов Колмаков\praktika\SystemOfTests\obj\Debug\SystemOfTests.csproj.AssemblyReference.cache
+D:\320 Миронов Колмаков\praktika\SystemOfTests\obj\Debug\SystemOfTests.csproj.SuggestedBindingRedirects.cache
+D:\320 Миронов Колмаков\praktika\SystemOfTests\obj\Debug\MainWindow.g.cs
+D:\320 Миронов Колмаков\praktika\SystemOfTests\obj\Debug\App.g.cs
+D:\320 Миронов Колмаков\praktika\SystemOfTests\obj\Debug\SystemOfTests_MarkupCompile.cache
+D:\320 Миронов Колмаков\praktika\SystemOfTests\obj\Debug\SystemOfTests_MarkupCompile.lref
+D:\320 Миронов Колмаков\praktika\SystemOfTests\obj\Debug\MainWindow.baml
+D:\320 Миронов Колмаков\praktika\SystemOfTests\obj\Debug\SystemOfTests.g.resources
+D:\320 Миронов Колмаков\praktika\SystemOfTests\obj\Debug\SystemOfTests.Properties.Resources.resources
+D:\320 Миронов Колмаков\praktika\SystemOfTests\obj\Debug\SystemOfTests.csproj.GenerateResource.cache
+D:\320 Миронов Колмаков\praktika\SystemOfTests\obj\Debug\SystemOfTests.csproj.CoreCompileInputs.cache
+D:\320 Миронов Колмаков\praktika\SystemOfTests\obj\Debug\SystemOfTests.exe
+D:\320 Миронов Колмаков\praktika\SystemOfTests\obj\Debug\SystemOfTests.pdb
+D:\320 Миронов Колмаков\praktika\SystemOfTests\obj\Debug\EnterWin.g.cs
+D:\320 Миронов Колмаков\praktika\SystemOfTests\obj\Debug\EnterWin.baml
+D:\320 Миронов Колмаков\praktika\SystemOfTests\obj\Debug\RegWin.g.cs
+D:\320 Миронов Колмаков\praktika\SystemOfTests\obj\Debug\RegWin.baml
+D:\320 Миронов Колмаков\praktika\SystemOfTests\obj\Debug\TestMainMenu.g.cs
+D:\320 Миронов Колмаков\praktika\SystemOfTests\obj\Debug\TestMainMenu.baml
+D:\320 Миронов Колмаков\praktika\SystemOfTests\obj\Debug\Tests.g.cs
+D:\320 Миронов Колмаков\praktika\SystemOfTests\obj\Debug\Tests.baml
+E:\praktika\SystemOfTests\bin\Debug\SystemOfTests.exe.config
+E:\praktika\SystemOfTests\bin\Debug\SystemOfTests.exe
+E:\praktika\SystemOfTests\bin\Debug\SystemOfTests.pdb
+E:\praktika\SystemOfTests\obj\Debug\SystemOfTests.csproj.AssemblyReference.cache
+E:\praktika\SystemOfTests\obj\Debug\EnterWin.g.cs
+E:\praktika\SystemOfTests\obj\Debug\MainWindow.g.cs
+E:\praktika\SystemOfTests\obj\Debug\RegWin.g.cs
+E:\praktika\SystemOfTests\obj\Debug\TestMainMenu.g.cs
+E:\praktika\SystemOfTests\obj\Debug\Tests.g.cs
+E:\praktika\SystemOfTests\obj\Debug\App.g.cs
+E:\praktika\SystemOfTests\obj\Debug\SystemOfTests_MarkupCompile.cache
+E:\praktika\SystemOfTests\obj\Debug\SystemOfTests_MarkupCompile.lref
+E:\praktika\SystemOfTests\obj\Debug\EnterWin.baml
+E:\praktika\SystemOfTests\obj\Debug\MainWindow.baml
+E:\praktika\SystemOfTests\obj\Debug\RegWin.baml
+E:\praktika\SystemOfTests\obj\Debug\TestMainMenu.baml
+E:\praktika\SystemOfTests\obj\Debug\Tests.baml
+E:\praktika\SystemOfTests\obj\Debug\SystemOfTests.g.resources
+E:\praktika\SystemOfTests\obj\Debug\SystemOfTests.Properties.Resources.resources
+E:\praktika\SystemOfTests\obj\Debug\SystemOfTests.csproj.GenerateResource.cache
+E:\praktika\SystemOfTests\obj\Debug\SystemOfTests.csproj.CoreCompileInputs.cache
+E:\praktika\SystemOfTests\obj\Debug\SystemOfTests.exe
+E:\praktika\SystemOfTests\obj\Debug\SystemOfTests.pdb
+E:\praktika\SystemOfTests\obj\Debug\LaderBoard.g.cs
+E:\praktika\SystemOfTests\obj\Debug\LaderBoard.baml
+D:\praktika\SystemOfTests\bin\Debug\SystemOfTests.exe.config
+D:\praktika\SystemOfTests\bin\Debug\SystemOfTests.exe
+D:\praktika\SystemOfTests\bin\Debug\SystemOfTests.pdb
+D:\praktika\SystemOfTests\obj\Debug\SystemOfTests.csproj.AssemblyReference.cache
+D:\praktika\SystemOfTests\obj\Debug\EnterWin.g.cs
+D:\praktika\SystemOfTests\obj\Debug\LaderBoard.g.cs
+D:\praktika\SystemOfTests\obj\Debug\MainWindow.g.cs
+D:\praktika\SystemOfTests\obj\Debug\RegWin.g.cs
+D:\praktika\SystemOfTests\obj\Debug\TestMainMenu.g.cs
+D:\praktika\SystemOfTests\obj\Debug\Tests.g.cs
+D:\praktika\SystemOfTests\obj\Debug\App.g.cs
+D:\praktika\SystemOfTests\obj\Debug\SystemOfTests_MarkupCompile.cache
+D:\praktika\SystemOfTests\obj\Debug\SystemOfTests_MarkupCompile.lref
+D:\praktika\SystemOfTests\obj\Debug\EnterWin.baml
+D:\praktika\SystemOfTests\obj\Debug\LaderBoard.baml
+D:\praktika\SystemOfTests\obj\Debug\MainWindow.baml
+D:\praktika\SystemOfTests\obj\Debug\RegWin.baml
+D:\praktika\SystemOfTests\obj\Debug\TestMainMenu.baml
+D:\praktika\SystemOfTests\obj\Debug\Tests.baml
+D:\praktika\SystemOfTests\obj\Debug\SystemOfTests.g.resources
+D:\praktika\SystemOfTests\obj\Debug\SystemOfTests.Properties.Resources.resources
+D:\praktika\SystemOfTests\obj\Debug\SystemOfTests.csproj.GenerateResource.cache
+D:\praktika\SystemOfTests\obj\Debug\SystemOfTests.csproj.CoreCompileInputs.cache
+D:\praktika\SystemOfTests\obj\Debug\SystemOfTests.exe
+D:\praktika\SystemOfTests\obj\Debug\SystemOfTests.pdb

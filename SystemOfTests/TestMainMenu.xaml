@@ -1,0 +1,22 @@
+﻿<Page x:Class="SystemOfTests.TestMainMenu"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:SystemOfTests"
+      mc:Ignorable="d" 
+      d:DesignHeight="450" d:DesignWidth="800"
+      Title="TestMainMenu">
+
+    <Grid Background="White">
+        <StackPanel Margin="100,0,100,0">
+            <TextBlock Text="Тесты" Margin="0,50,0,0"
+                       HorizontalAlignment="Center" FontSize="30"/>
+            <Button x:Name="test1" Margin="0,50,0,0" Content="test1" Click="Test1But_Click"/>
+            <Button x:Name="test2" Margin="0,20,0,0" Content="test2" Click="Test2But_Click"/>
+            <Button x:Name="test3" Margin="0,20,0,0" Content="test3" Click="Test3But_Click"/>
+
+            <Button x:Name="ExitBut" Margin="540,50,0,0" Content="Выход" Click="ExitBut_Click"/>
+        </StackPanel>
+    </Grid>
+</Page>
