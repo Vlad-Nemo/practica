@@ -1,30 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\praktika\\SystemOfTests\\",
+  "WorkspaceRootPath": "D:\\praktika\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|d:\\praktika\\systemoftests\\laderboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|d:\\praktika\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\systemoftests\\laderboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:laderboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|D:\\praktika\\SystemOfTests\\laderboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|D:\\praktika\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\laderboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:laderboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|D:\\praktika\\SystemOfTests\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|D:\\praktika\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|D:\\praktika\\SystemOfTests\\regwin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:regwin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|D:\\praktika\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\tests.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:tests.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|D:\\praktika\\SystemOfTests\\tests.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|D:\\praktika\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\tests.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:tests.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|D:\\praktika\\SystemOfTests\\tests.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:tests.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|D:\\praktika\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\regwin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:regwin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +38,11 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "RegWin.xaml",
-              "DocumentMoniker": "D:\\praktika\\SystemOfTests\\RegWin.xaml",
+              "DocumentMoniker": "D:\\praktika\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\RegWin.xaml",
               "RelativeDocumentMoniker": "RegWin.xaml",
-              "ToolTip": "D:\\praktika\\SystemOfTests\\RegWin.xaml",
+              "ToolTip": "D:\\praktika\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\RegWin.xaml",
               "RelativeToolTip": "RegWin.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-20T11:54:25.562Z"
@@ -51,9 +51,9 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "LaderBoard.xaml",
-              "DocumentMoniker": "D:\\praktika\\SystemOfTests\\LaderBoard.xaml",
+              "DocumentMoniker": "D:\\praktika\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\LaderBoard.xaml",
               "RelativeDocumentMoniker": "LaderBoard.xaml",
-              "ToolTip": "D:\\praktika\\SystemOfTests\\LaderBoard.xaml",
+              "ToolTip": "D:\\praktika\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\LaderBoard.xaml",
               "RelativeToolTip": "LaderBoard.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-20T10:22:19.8Z",
@@ -63,9 +63,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "LaderBoard.xaml.cs",
-              "DocumentMoniker": "D:\\praktika\\SystemOfTests\\LaderBoard.xaml.cs",
+              "DocumentMoniker": "D:\\praktika\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\LaderBoard.xaml.cs",
               "RelativeDocumentMoniker": "LaderBoard.xaml.cs",
-              "ToolTip": "D:\\praktika\\SystemOfTests\\LaderBoard.xaml.cs",
+              "ToolTip": "D:\\praktika\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\LaderBoard.xaml.cs",
               "RelativeToolTip": "LaderBoard.xaml.cs",
               "ViewState": "AgIAAAkAAAAAAAAAAAAYwBkAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -76,9 +76,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "D:\\praktika\\SystemOfTests\\MainWindow.xaml.cs",
+              "DocumentMoniker": "D:\\praktika\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "MainWindow.xaml.cs",
-              "ToolTip": "D:\\praktika\\SystemOfTests\\MainWindow.xaml.cs",
+              "ToolTip": "D:\\praktika\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\MainWindow.xaml.cs",
               "RelativeToolTip": "MainWindow.xaml.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAUwBkAAAAqAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -87,26 +87,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 3,
               "Title": "Tests.xaml",
-              "DocumentMoniker": "D:\\praktika\\SystemOfTests\\Tests.xaml",
+              "DocumentMoniker": "D:\\praktika\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\Tests.xaml",
               "RelativeDocumentMoniker": "Tests.xaml",
-              "ToolTip": "D:\\praktika\\SystemOfTests\\Tests.xaml",
+              "ToolTip": "D:\\praktika\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\Tests.xaml",
               "RelativeToolTip": "Tests.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-20T07:19:51.777Z"
+              "WhenOpened": "2024-11-20T07:19:51.777Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Tests.xaml.cs",
-              "DocumentMoniker": "D:\\praktika\\SystemOfTests\\Tests.xaml.cs",
+              "DocumentMoniker": "D:\\praktika\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\Tests.xaml.cs",
               "RelativeDocumentMoniker": "Tests.xaml.cs",
-              "ToolTip": "D:\\praktika\\SystemOfTests\\Tests.xaml.cs",
+              "ToolTip": "D:\\praktika\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\Tests.xaml.cs",
               "RelativeToolTip": "Tests.xaml.cs",
-              "ViewState": "AQIAAFEAAAAAAAAAAAAgwJAAAAARAAAA",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAgwJAAAAARAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-11-20T09:17:54.574Z"
+              "WhenOpened": "2024-11-20T09:17:54.574Z",
+              "EditorCaption": ""
             }
           ]
         }
