@@ -32,20 +32,17 @@ namespace SystemOfTests
 
         private void Test1But_Click(object sender, RoutedEventArgs e)
         {
-            ViewModel view = new ViewModel(test1.Name);
-            NavigationService.Navigate(new Tests(test1.Name));
+            NavigationService.Navigate(new Tests(Convert.ToString(test1.Content)));
         }
 
         private void Test2But_Click(object sender, RoutedEventArgs e)
         {
-            ViewModel view = new ViewModel(test2.Name);
-            NavigationService.Navigate(new Tests(test2.Name));
+            NavigationService.Navigate(new Tests(Convert.ToString(test2.Content)));
         }
 
         private void Test3But_Click(object sender, RoutedEventArgs e)
         {
-            ViewModel view = new ViewModel(test3.Name);
-            NavigationService.Navigate(new Tests(test3.Name));
+            NavigationService.Navigate(new Tests(Convert.ToString(test3.Content)));
         }
     }
 }

@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-C:\Users\user\Desktop\Новая папка\SystemOfTests\obj\Debug\
+C:\Users\user\Desktop\Новая папка\SystemOfTests\obj\Release\
 SystemOfTests
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\user\Desktop\Новая папка\SystemOfTests\App.xaml
 6563880716
 
-14709571307
+13-1212206814
 13-38814620
 EnterWin.xaml;LaderBoard.xaml;MainWindow.xaml;RegWin.xaml;TestMainMenu.xaml;Tests.xaml;
 

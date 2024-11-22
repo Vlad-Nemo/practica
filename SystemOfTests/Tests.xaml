@@ -13,6 +13,24 @@
             <Setter Property="Margin" Value="15,20,0,0"/>
             <Setter Property="FontSize" Value="15"/>
         </Style>
+        <Style TargetType="Button">
+            <Setter Property="Background" Value="LightGreen"/>
+            <Setter Property="Template">
+                <Setter.Value>
+                    <ControlTemplate TargetType="{x:Type Button}">
+                        <Border Background="{TemplateBinding Background}">
+                            <ContentPresenter HorizontalAlignment="Center" 
+                                      VerticalAlignment="Center"/>
+                        </Border>
+                    </ControlTemplate>
+                </Setter.Value>
+            </Setter>
+            <Style.Triggers>
+                <Trigger Property="IsMouseOver" Value="True">
+                    <Setter Property="Background" Value="#00AF64"/>
+                </Trigger>
+            </Style.Triggers>
+        </Style>
     </Page.Resources>
 
     <Grid Background="White">
@@ -23,14 +41,23 @@
 
             <TextBlock Text="Quests?" x:Name="qestion"
                        Margin="30,15,0,0"
-                       FontSize="20"/>
+                       FontSize="20" TextWrapping="Wrap"/>
 
-            <RadioButton  GroupName="groupName" Content="Answer1" x:Name="ans1"/>
+            <RadioButton  GroupName="groupName" Content="Answer1" x:Name="ans1" />
             <RadioButton GroupName="groupName" Content="Answer2" x:Name="ans2"/>
             <RadioButton GroupName="groupName" Content="Answer3" x:Name="ans3"/>
 
-            <Button Content="Продолжить" Margin="520,100,50,0" Name="nextQestion"
-                    Click="Button_Click"/>
         </StackPanel>
+        <Button Content="Продолжить" Margin="575,348,0,0" Name="nextQestion"
+        Click="Button_Click" Height="25" Width="120" >
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="10"/>
+                </Style>
+            </Button.Resources>
+            <Button.BitmapEffect>
+                <DropShadowBitmapEffect Color="LightGray" ShadowDepth="10" Opacity="0.5"/>
+            </Button.BitmapEffect>
+        </Button>
     </Grid>
 </Page>
