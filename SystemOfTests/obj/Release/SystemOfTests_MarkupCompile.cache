@@ -4,11 +4,11 @@
 winexe
 C#
 .cs
-C:\Users\sanic\Documents\GitHub\practica\SystemOfTests\obj\Debug\
+C:\Users\sanic\Documents\GitHub\practica\SystemOfTests\obj\Release\
 SystemOfTests
 none
 false
-DEBUG;TRACE
+TRACE
 C:\Users\sanic\Documents\GitHub\practica\SystemOfTests\App.xaml
 6563880716
 

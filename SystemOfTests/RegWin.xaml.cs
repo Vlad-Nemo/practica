@@ -12,6 +12,8 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using System.Data.SqlClient;
+using System.Configuration;
 
 namespace SystemOfTests
 {
@@ -55,6 +57,23 @@ namespace SystemOfTests
             {
                 return true;
             }
+        }
+        private void DBWrite(string login, string password)
+        {
+            string connectionString = "Data Source=.\SQLEXPRESS;Initial Catalog=AppDB;Integrated Security=True";
+            SqlDataAdapter adapter;
+
+            try
+            {
+                connection = new SqlConnection(connectionString);
+
+                adapter.InsertCommand = new SqlCommand["dbo.addUser", connection];
+            }
+            catch
+            {
+
+            }
+
         }
     }
 }
