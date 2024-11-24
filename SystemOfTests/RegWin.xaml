@@ -18,7 +18,7 @@
     
     <Grid Background="White">
         <StackPanel Margin="100,0,100,0">
-            <TextBlock Text="Зарегестрироваться" Margin="0,50,0,0"
+            <TextBlock Text="Зарегистрироваться" Margin="0,50,0,0"
                        HorizontalAlignment="Center" FontSize="30"/>
 
             <TextBlock Text="Введите логин" FontSize="15" Margin="0,30,0,0"/>
@@ -33,7 +33,7 @@
             <StackPanel Orientation="Horizontal" Margin="0,35,0,0">
                 <Button x:Name="RegistrBut" Content="Зарегистрироваться"
                         Margin="80,0,0,0" Click="RegistrBut_Click"/>
-                <TextBlock Text="Уже есть аккауент?" FontSize="15"
+                <TextBlock Text="Уже есть аккаунт?" FontSize="15"
                            Margin="80,0,0,0"/>
                 <Button x:Name="EnterBut" Content="Войти"
                         Margin="10,0,0,0" Click="Enter_Click"/>
