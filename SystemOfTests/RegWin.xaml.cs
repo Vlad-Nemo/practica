@@ -24,8 +24,7 @@ namespace SystemOfTests
     /// </summary>
     public partial class RegWin : Page
     {
-        string connectionString;
-        SqlDataAdapter adapter;
+        DB UsersDataBase = new DB(); //Экземпялр класса с методами для подключения к БДшке
 
         public RegWin()
         {
@@ -66,30 +65,20 @@ namespace SystemOfTests
         }
         private void DBWrite(string login, string password)
         {
-            //connectionString = ConfigurationManager.ConnectionStrings["UsersDB"].ConnectionString;
-            connectionString = @"Data Source = LAZARPC; Initial Catalog = AppDB; Integrated Security = True";
-
-            SqlConnection connection = null;
-
+            
             try
             {
-                connection = new SqlConnection(connectionString);
-
-                adapter.InsertCommand = new SqlCommand("dbo.addUser", connection);
-                adapter.InsertCommand.CommandType = CommandType.StoredProcedure;
-                adapter.InsertCommand.Parameters.Add(new SqlParameter("@Login", SqlDbType.NVarChar, 50, login));
-                adapter.InsertCommand.Parameters.Add(new SqlParameter("@Password", SqlDbType.NVarChar, 50, password));
-                connection.Open();
-
+                UsersDataBase.ConnectToDB();
+                SqlCommand command = new SqlCommand("addUser", UsersDataBase.GetConnection());
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.Add(new SqlParameter("@Login", login));
+                command.Parameters.Add(new SqlParameter("@Password", password));
+               
             }
             catch
             {
-
-            }
-            finally
-            {
-                if (connection != null)
-                    connection.Close();
+                MessageBox.Show("Не удалось зарегистрироваться");
+                UsersDataBase.DisconnectDB();
             }
 
         }
