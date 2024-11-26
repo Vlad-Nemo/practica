@@ -73,11 +73,16 @@ namespace SystemOfTests
                 command.CommandType = CommandType.StoredProcedure;
                 command.Parameters.Add(new SqlParameter("@Login", login));
                 command.Parameters.Add(new SqlParameter("@Password", password));
-               
+                command.ExecuteNonQuery();
             }
             catch
             {
                 MessageBox.Show("Не удалось зарегистрироваться");
+                UsersDataBase.DisconnectDB();
+            }
+            finally
+            {
+                MessageBox.Show("Регистрация успешна!");
                 UsersDataBase.DisconnectDB();
             }
 
