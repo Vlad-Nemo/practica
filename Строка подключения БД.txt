@@ -1,1 +1,1 @@
-Server=localhost;Database=master;Trusted_Connection=True;
+Server=localhost;Database=AppDB;Trusted_Connection=True;
