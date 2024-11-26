@@ -38,10 +38,10 @@ namespace SystemOfTests
 
         private void RegistrBut_Click(object sender, RoutedEventArgs e)
         {
-            //надо сделать добавление в БД
-            if (Proverka(login.Text, parol1.Password, parol2.Password) == true)
+
+            if (Proverka(login.Text, parol1.Password, parol2.Password) == true && DBWrite(login.Text, parol1.Password) == 0) //Запись данных в БД c проверкой занятости имени 
             {
-                DBWrite(login.Text, parol1.Password);
+                MessageBox.Show("Регистрация успешна!");
                 NavigationService.Navigate(new EnterWin(login.Text));
             }
         }
@@ -63,9 +63,10 @@ namespace SystemOfTests
                 return true;
             }
         }
-        private void DBWrite(string login, string password)
+        private int DBWrite(string login, string password)
         {
-            
+            int DBanswer; //Ответ из БД где 1 - имя занято, 0 - свободно
+
             try
             {
                 UsersDataBase.ConnectToDB();
@@ -73,19 +74,24 @@ namespace SystemOfTests
                 command.CommandType = CommandType.StoredProcedure;
                 command.Parameters.Add(new SqlParameter("@Login", login));
                 command.Parameters.Add(new SqlParameter("@Password", password));
-                command.ExecuteNonQuery();
-            }
-            catch
-            {
-                MessageBox.Show("Не удалось зарегистрироваться");
-                UsersDataBase.DisconnectDB();
-            }
-            finally
-            {
-                MessageBox.Show("Регистрация успешна!");
-                UsersDataBase.DisconnectDB();
-            }
+                var returnParameter = command.Parameters.Add("@thisUserNameIsBusy", SqlDbType.Int);
+                returnParameter.Direction = ParameterDirection.ReturnValue;
 
+                command.ExecuteNonQuery();
+                DBanswer = (int)returnParameter.Value;
+                if (DBanswer == 1)
+                {
+                    throw new Exception("Имя занято");
+                }
+                UsersDataBase.DisconnectDB();
+                return DBanswer;
+            }
+            catch (Exception e)
+            {
+                MessageBox.Show($"Не удалось зарегистрироваться по причине: {e.Message}");
+                UsersDataBase.DisconnectDB();
+                return 1;
+            }
         }
     }
 }
