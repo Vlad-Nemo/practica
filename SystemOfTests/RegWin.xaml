@@ -35,43 +35,64 @@
     </Page.Resources>
     
     <Grid Background="White">
+        
+        <Button Content="x" Width="20" Height="20" Margin="700,20,0,350"
+         Foreground="Green" FontSize="13" FontWeight="Bold" 
+         Name="ShutdownBut" Click="ShutdownBut_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="9"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        
         <StackPanel Margin="100,0,100,0">
-            <TextBlock Text="Зарегестрироваться" Margin="0,50,0,0"
-                       HorizontalAlignment="Center" FontSize="30"/>
 
-            <TextBlock Text="Введите логин" FontSize="15" Margin="0,30,0,0"/>
-            <TextBox x:Name="login" Height="30"/>
+            <TextBlock Text="Зарегистрироваться" Margin="0,50,0,0"
+                HorizontalAlignment="Center" FontSize="30"/>
+            
+            <Border CornerRadius="18" Background="LightGreen" Margin="0,30,0,0">
+                <StackPanel Margin="15,15,15,15">
+                    <TextBlock Text="Введите логин" FontSize="15" 
+                               Margin="10,0,0,1" Foreground="Green"/>
+                    <TextBox x:Name="login" Height="30">
+                        <TextBox.Resources>
+                            <Style TargetType="{x:Type Border}">
+                                <Setter Property="CornerRadius" Value="10"/>
+                            </Style>
+                        </TextBox.Resources>
+                    </TextBox>
 
-            <TextBlock Text="Введите пароль" FontSize="15" Margin="0,15,0,0"/>
-            <PasswordBox x:Name="parol1" Height="30"/>
+                    <TextBlock Text="Введите пароль" FontSize="15" 
+                               Margin="10,15,0,1" Foreground="Green"/>
+                    <PasswordBox x:Name="parol1" Height="30"/>
 
-            <TextBlock Text="Повторите пароль" FontSize="15" Margin="0,15,0,0" />
-            <PasswordBox x:Name="parol2" Height="30"/>
+                    <TextBlock Text="Повторите пароль" FontSize="15" 
+                               Margin="10,15,0,1" Foreground="Green"/>
+                    <PasswordBox x:Name="parol2" Height="30"/>
+                </StackPanel>
+            </Border>
 
             <StackPanel Orientation="Horizontal" Margin="0,35,0,0">
                 <Button x:Name="RegistrBut" Content="Зарегистрироваться"
-                        Margin="80,0,0,0" Click="RegistrBut_Click" Height="25" Width="130">
+                        Margin="80,0,0,0" Click="RegistrBut_Click" Height="25" 
+                        Width="130" Foreground="Green">
                     <Button.Resources>
                         <Style TargetType="Border">
                             <Setter Property="CornerRadius" Value="10"/>
                         </Style>
                     </Button.Resources>
-                    <Button.BitmapEffect>
-                        <DropShadowBitmapEffect Color="LightGray" ShadowDepth="10" Opacity="0.5"/>
-                    </Button.BitmapEffect>
                 </Button>
-                <TextBlock Text="Уже есть аккауент?" FontSize="15"
+                <TextBlock Text="Уже есть аккаунт?" FontSize="15"
                            Margin="80,0,0,0"/>
                 <Button x:Name="EnterBut" Content="Войти"
-                        Margin="10,0,0,0" Click="Enter_Click" Height="25" Width="50">
-                        <Button.Resources>
-                            <Style TargetType="Border">
-                                <Setter Property="CornerRadius" Value="10"/>
-                            </Style>
+                        Margin="10,0,0,0" Click="Enter_Click" Height="25" 
+                        Width="50" Foreground="Green">
+                    <Button.Resources>
+                        <Style TargetType="Border">
+                            <Setter Property="CornerRadius" Value="10"/>
+                        </Style>
                     </Button.Resources>
-                    <Button.BitmapEffect>
-                        <DropShadowBitmapEffect Color="LightGray" ShadowDepth="10" Opacity="0.5"/>
-                    </Button.BitmapEffect>
                 </Button>
             </StackPanel>
         </StackPanel>

@@ -30,5 +30,10 @@ namespace SystemOfTests
         {
             NavigationService.Navigate(new TestMainMenu());
         }
+
+        private void ShutdownBut_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }

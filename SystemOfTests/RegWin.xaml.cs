@@ -56,5 +56,10 @@ namespace SystemOfTests
                 return true;
             }
         }
+
+        private void ShutdownBut_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }

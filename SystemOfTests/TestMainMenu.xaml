@@ -27,57 +27,57 @@
             </Style.Triggers>
         </Style>
     </Page.Resources>
+    
     <Grid Background="White">
+        
+        <Button Content="x" Width="20" Height="20" Margin="700,20,0,350"
+         Foreground="Green" FontSize="13" FontWeight="Bold" 
+         Name="ShutdownBut" Click="ShutdownBut_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="9"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+        
         <StackPanel Margin="100,0,100,0">
             <TextBlock Text="Тесты" Margin="0,50,0,0"
                        HorizontalAlignment="Center" FontSize="30"/>
             
             <Button x:Name="test1" Margin="0,50,0,0" Content="База данных" 
-                    Click="Test1But_Click" Height="30">
+                    Click="Test1But_Click" Height="30" Foreground="Green">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10"/>
                     </Style>
                 </Button.Resources>
-                <Button.BitmapEffect>
-                    <DropShadowBitmapEffect Color="LightGray" ShadowDepth="10" Opacity="0.5"/>
-                </Button.BitmapEffect>
             </Button>
             
             <Button x:Name="test2" Margin="0,20,0,0" Content="Язык программирования C#" 
-                    Click="Test2But_Click" Height="30">
+                    Click="Test2But_Click" Height="30" Foreground="Green">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10"/>
                     </Style>
                 </Button.Resources>
-                <Button.BitmapEffect>
-                    <DropShadowBitmapEffect Color="LightGray" ShadowDepth="10" Opacity="0.5"/>
-                </Button.BitmapEffect>
             </Button>
             
             <Button x:Name="test3" Margin="0,20,0,0" Content="Машинное обучение" 
-                    Click="Test3But_Click" Height="30">
+                    Click="Test3But_Click" Height="30" Foreground="Green">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10"/>
                     </Style>
                 </Button.Resources>
-                <Button.BitmapEffect>
-                    <DropShadowBitmapEffect Color="LightGray" ShadowDepth="10" Opacity="0.5"/>
-                </Button.BitmapEffect>
             </Button>
 
             <Button x:Name="ExitBut" Margin="510,50,0,0" Content="Выход" 
-                    Click="ExitBut_Click" Height="25" Width="70">
+                    Click="ExitBut_Click" Height="25" Width="70" Foreground="Green">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10"/>
                     </Style>
                 </Button.Resources>
-                <Button.BitmapEffect>
-                    <DropShadowBitmapEffect Color="LightGray" ShadowDepth="10" Opacity="0.5"/>
-                </Button.BitmapEffect>
             </Button>
         </StackPanel>
     </Grid>

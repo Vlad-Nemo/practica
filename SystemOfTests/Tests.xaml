@@ -35,29 +35,41 @@
 
     <Grid Background="White">
         <StackPanel Margin="50,0,50,0">
-            <TextBlock Name="TestName"  Text="TestName" 
-                       FontSize="30" FontWeight="Bold"
-                       Margin="0,35,0,0"/>
+            <DockPanel>
+                <TextBlock Name="TestName"  Text="TestName" 
+                           FontSize="30" FontWeight="Bold"
+                           HorizontalAlignment="Left"
+                           Margin="0,35,0,0"/>
+                <TextBlock x:Name="numTest" Text="1/10"
+                           FontSize="30" FontWeight="Bold"
+                           HorizontalAlignment="Right"
+                           Margin="0,35,10,0"/>
+            </DockPanel>
 
-            <TextBlock Text="Quests?" x:Name="qestion"
-                       Margin="30,15,0,0"
+            <Border CornerRadius="18" Background="LightGreen" Margin="0,30,0,0">
+                <StackPanel Margin="15,15,15,15">
+                    <TextBlock Text="Quests?" x:Name="qestion"
+                       Margin="10,0,0,0" Foreground="Green"
                        FontSize="20" TextWrapping="Wrap"/>
 
-            <RadioButton  GroupName="groupName" Content="Answer1" x:Name="ans1" />
-            <RadioButton GroupName="groupName" Content="Answer2" x:Name="ans2"/>
-            <RadioButton GroupName="groupName" Content="Answer3" x:Name="ans3"/>
+                    <Border CornerRadius="18" Background="White" Margin="0,15,0,0">
+                        <StackPanel Margin="15,0,15,15">
+                            <RadioButton  GroupName="groupName" Content="Answer1" x:Name="ans1" />
+                            <RadioButton GroupName="groupName" Content="Answer2" x:Name="ans2"/>
+                            <RadioButton GroupName="groupName" Content="Answer3" x:Name="ans3"/>
+                        </StackPanel>
+                    </Border>
+                </StackPanel>
+            </Border>
 
         </StackPanel>
         <Button Content="Продолжить" Margin="575,348,0,0" Name="nextQestion"
-        Click="Button_Click" Height="25" Width="120" >
+        Click="Button_Click" Height="25" Width="120" Foreground="Green">
             <Button.Resources>
                 <Style TargetType="Border">
                     <Setter Property="CornerRadius" Value="10"/>
                 </Style>
             </Button.Resources>
-            <Button.BitmapEffect>
-                <DropShadowBitmapEffect Color="LightGray" ShadowDepth="10" Opacity="0.5"/>
-            </Button.BitmapEffect>
         </Button>
     </Grid>
 </Page>

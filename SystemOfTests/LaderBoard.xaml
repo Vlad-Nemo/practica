@@ -33,35 +33,48 @@
         </Style>
     </Page.Resources>
     <Grid Background="White">
+        
+        <Button Content="x" Width="20" Height="20" Margin="700,20,0,350"
+         Foreground="Green" FontSize="13" FontWeight="Bold" 
+         Name="ShutdownBut" Click="ShutdownBut_Click">
+            <Button.Resources>
+                <Style TargetType="Border">
+                    <Setter Property="CornerRadius" Value="9"/>
+                </Style>
+            </Button.Resources>
+        </Button>
+
         <StackPanel Margin="50,0,50,0">
             <TextBlock x:Name="ocenkaUser" Text="10/10"
                        FontSize="50" HorizontalAlignment="Center"
-                       Margin="0,40,0,30"/>
-            <Grid>
-                <StackPanel>
-                    <TextBlock Text="Рейтинг участников" FontSize="23"
-                               FontWeight="Bold"/>
-                    <ListBox MaxHeight="150" Height="150">
-                        <ListBoxItem Content="Пеухов Владсилав 10"/>
-                        <ListBoxItem Content="Пеухов Владсилав 10"/>
-                        <ListBoxItem Content="Пеухов Владсилав 10"/>
-                        <ListBoxItem Content="Пеухов Владсилав 10"/>
-                        <ListBoxItem Content="Пеухов Владсилав 10"/>
-                        <ListBoxItem Content="Пеухов Владсилав 10"/>
-                        <ListBoxItem Content="Пеухов Владсилав 10"/>
-                    </ListBox>
-                </StackPanel>
-            </Grid>
+                       Margin="0,40,0,30" FontWeight="Bold" 
+                       Foreground="Green"/>
+            <Border CornerRadius="18" Background="LightGreen" 
+                    Margin="0,0,0,0">
+                <Grid Margin="15,10,15,15">
+                    <StackPanel>
+                        <TextBlock Text="Рейтинг участников" FontSize="23"
+                                   FontWeight="Bold" Foreground="Green"/>
+                        <ListBox MaxHeight="150" Height="150">
+                            <ListBoxItem Content="Пеухов Владсилав 10"/>
+                            <ListBoxItem Content="Пеухов Владсилав 10"/>
+                            <ListBoxItem Content="Пеухов Владсилав 10"/>
+                            <ListBoxItem Content="Пеухов Владсилав 10"/>
+                            <ListBoxItem Content="Пеухов Владсилав 10"/>
+                            <ListBoxItem Content="Пеухов Владсилав 10"/>
+                            <ListBoxItem Content="Пеухов Владсилав 10"/>
+                        </ListBox>
+                    </StackPanel>
+                </Grid>
+            </Border>
             <Button Content="Вернутся к тестам" Margin="520,30,50,0" 
-                Name="nextQestion" Click="Button_Click" Height="25">
+                Name="nextQestion" Click="Button_Click" Height="25"
+                    Foreground="Green">
                 <Button.Resources>
                     <Style TargetType="Border">
                         <Setter Property="CornerRadius" Value="10"/>
                     </Style>
                 </Button.Resources>
-                <Button.BitmapEffect>
-                    <DropShadowBitmapEffect Color="LightGray" ShadowDepth="10" Opacity="0.5"/>
-                </Button.BitmapEffect>
             </Button>
         </StackPanel>
     </Grid>

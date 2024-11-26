@@ -33,6 +33,7 @@ namespace SystemOfTests
             hod = 0;
             UserAnswer = new List<short> { 0,0,0,0,0,0,0,0,0,0 };
 
+            numTest.Text = $"{hod + 1}/10";
             TestName.Text = testName;
             
             if (testName == "База данных")
@@ -217,26 +218,45 @@ namespace SystemOfTests
                 {
                     UserAnswer[hod] = 1;
                     ans1.IsChecked = false;
+
+                    index += 4;
+                    hod++;
+                    Update();
                 }
                 else if(ans2.IsChecked == true)
                 {
                     UserAnswer[hod] = 2;
                     ans2.IsChecked = false;
+
+                    index += 4;
+                    hod++;
+                    Update();
                 }
                 else if(ans3.IsChecked == true)
                 {
                     UserAnswer[hod] = 3;
                     ans3.IsChecked = false;
+
+                    index += 4;
+                    hod++;
+                    Update();
                 }
                 else
                 {
-                    
-                    UserAnswer[hod] = 0;
-                }
+                    MessageBoxResult result = MessageBox.Show("Вы не выбрали не один вариант ответа. Вы хотите продолжить?","", MessageBoxButton.YesNo);
+                    switch (result)
+                    {
+                        case MessageBoxResult.Yes:
+                            UserAnswer[hod] = 0;
 
-                index += 4;
-                hod++;
-                Update();
+                            index += 4;
+                            hod++;
+                            Update();
+                            break;
+                        case MessageBoxResult.No:
+                            break;
+                    }
+                }
             }
             else if (index + 4 >= qest.Count)
             {
@@ -266,6 +286,7 @@ namespace SystemOfTests
 
         private void Update()
         {
+            numTest.Text = $"{hod + 1}/10";
             if (index+8 > qest.Count)
             {
                 nextQestion.Content = "Завершить тест";

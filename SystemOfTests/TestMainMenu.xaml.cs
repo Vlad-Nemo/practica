@@ -44,5 +44,10 @@ namespace SystemOfTests
         {
             NavigationService.Navigate(new Tests(Convert.ToString(test3.Content)));
         }
+
+        private void ShutdownBut_Click(object sender, RoutedEventArgs e)
+        {
+            Application.Current.Shutdown();
+        }
     }
 }
