@@ -1,0 +1,1 @@
+Server=localhost;Database=AppDB;Trusted_Connection=True;

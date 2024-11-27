@@ -14,86 +14,29 @@
         <Style TargetType="PasswordBox">
             <Setter Property="FontSize" Value="20"/>
         </Style>
-        <Style TargetType="Button">
-            <Setter Property="Background" Value="LightGreen"/>
-            <Setter Property="Template">
-                <Setter.Value>
-                    <ControlTemplate TargetType="{x:Type Button}">
-                        <Border Background="{TemplateBinding Background}">
-                            <ContentPresenter HorizontalAlignment="Center" 
-                                      VerticalAlignment="Center"/>
-                        </Border>
-                    </ControlTemplate>
-                </Setter.Value>
-            </Setter>
-            <Style.Triggers>
-                <Trigger Property="IsMouseOver" Value="True">
-                    <Setter Property="Background" Value="#00AF64"/>
-                </Trigger>
-            </Style.Triggers>
-        </Style>
     </Page.Resources>
     
     <Grid Background="White">
-        
-        <Button Content="x" Width="20" Height="20" Margin="700,20,0,350"
-         Foreground="Green" FontSize="13" FontWeight="Bold" 
-         Name="ShutdownBut" Click="ShutdownBut_Click">
-            <Button.Resources>
-                <Style TargetType="Border">
-                    <Setter Property="CornerRadius" Value="9"/>
-                </Style>
-            </Button.Resources>
-        </Button>
-        
         <StackPanel Margin="100,0,100,0">
-
             <TextBlock Text="Зарегистрироваться" Margin="0,50,0,0"
-                HorizontalAlignment="Center" FontSize="30"/>
-            
-            <Border CornerRadius="18" Background="LightGreen" Margin="0,30,0,0">
-                <StackPanel Margin="15,15,15,15">
-                    <TextBlock Text="Введите логин" FontSize="15" 
-                               Margin="10,0,0,1" Foreground="Green"/>
-                    <TextBox x:Name="login" Height="30">
-                        <TextBox.Resources>
-                            <Style TargetType="{x:Type Border}">
-                                <Setter Property="CornerRadius" Value="10"/>
-                            </Style>
-                        </TextBox.Resources>
-                    </TextBox>
+                       HorizontalAlignment="Center" FontSize="30"/>
 
-                    <TextBlock Text="Введите пароль" FontSize="15" 
-                               Margin="10,15,0,1" Foreground="Green"/>
-                    <PasswordBox x:Name="parol1" Height="30"/>
+            <TextBlock Text="Введите логин" FontSize="15" Margin="0,30,0,0"/>
+            <TextBox x:Name="login" Height="30"/>
 
-                    <TextBlock Text="Повторите пароль" FontSize="15" 
-                               Margin="10,15,0,1" Foreground="Green"/>
-                    <PasswordBox x:Name="parol2" Height="30"/>
-                </StackPanel>
-            </Border>
+            <TextBlock Text="Введите пароль" FontSize="15" Margin="0,15,0,0"/>
+            <PasswordBox x:Name="parol1" Height="30"/>
+
+            <TextBlock Text="Повторите пароль" FontSize="15" Margin="0,15,0,0"/>
+            <PasswordBox x:Name="parol2" Height="30"/>
 
             <StackPanel Orientation="Horizontal" Margin="0,35,0,0">
                 <Button x:Name="RegistrBut" Content="Зарегистрироваться"
-                        Margin="80,0,0,0" Click="RegistrBut_Click" Height="25" 
-                        Width="130" Foreground="Green">
-                    <Button.Resources>
-                        <Style TargetType="Border">
-                            <Setter Property="CornerRadius" Value="10"/>
-                        </Style>
-                    </Button.Resources>
-                </Button>
+                        Margin="80,0,0,0" Click="RegistrBut_Click"/>
                 <TextBlock Text="Уже есть аккаунт?" FontSize="15"
                            Margin="80,0,0,0"/>
                 <Button x:Name="EnterBut" Content="Войти"
-                        Margin="10,0,0,0" Click="Enter_Click" Height="25" 
-                        Width="50" Foreground="Green">
-                    <Button.Resources>
-                        <Style TargetType="Border">
-                            <Setter Property="CornerRadius" Value="10"/>
-                        </Style>
-                    </Button.Resources>
-                </Button>
+                        Margin="10,0,0,0" Click="Enter_Click"/>
             </StackPanel>
         </StackPanel>
     </Grid>

@@ -1,20 +1,18 @@
 ﻿SystemOfTests
-
-
 winexe
 C#
 .cs
 C:\Users\user\Desktop\Новая папка\SystemOfTests\obj\Release\
+C:\Users\sanic\Documents\GitHub\practica\SystemOfTests\obj\Release\
 SystemOfTests
 none
 false
 TRACE
 C:\Users\user\Desktop\Новая папка\SystemOfTests\App.xaml
+C:\Users\sanic\Documents\\GitHubpractica\SystemOfTests\App.xaml
 6563880716
-
 13-1212206814
 13-38814620
 EnterWin.xaml;LaderBoard.xaml;MainWindow.xaml;RegWin.xaml;TestMainMenu.xaml;Tests.xaml;
-
 True
 
