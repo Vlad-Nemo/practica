@@ -55,7 +55,7 @@
                     <StackPanel>
                         <TextBlock Text="Рейтинг участников" FontSize="23"
                                    FontWeight="Bold" Foreground="Green"/>
-                        <ListBox MaxHeight="150" Height="150">
+                        <ListBox Name="LeaderBoard" MaxHeight="150" Height="150">
                             
                         </ListBox>
                     </StackPanel>

@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,10 +22,11 @@ namespace SystemOfTests
     /// </summary>
     public partial class LaderBoard : Page
     {
-        public LaderBoard(string ocenka)
+        DB ScoreTestTable = new DB(); //Экземпялр класса с методами для подключения к БДшке
+        public LaderBoard(string ocenka, string Testname)
         {
-            //Заполнение из БД
             InitializeComponent();
+            FillScoreTable(Testname);
             ocenkaUser.Text = $"{ocenka}/10";
         }
 
@@ -36,5 +39,34 @@ namespace SystemOfTests
         {
             Application.Current.Shutdown();
         }
+        private void FillScoreTable(string TestName)
+        {
+            SqlDataAdapter adapter = new SqlDataAdapter();
+            DataTable Scores = new DataTable();
+
+            try
+            {
+                ScoreTestTable.ConnectToDB();
+                SqlCommand command = new SqlCommand("SelectScores", ScoreTestTable.GetConnection());
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.Add(new SqlParameter("@Testname", TestName));
+
+                command.ExecuteNonQuery();
+
+                SqlDataReader read = command.ExecuteReader(); //Считываем и извлекаем данные
+                while (read.Read()) //Читаем пока есть данные
+                {
+                    LeaderBoard.Items.Add(read.GetValue(0).ToString()); //Добавляем данные в лист итем
+                }
+
+
+                ScoreTestTable.DisconnectDB();
+            }
+            catch
+            {
+                ScoreTestTable.DisconnectDB();
+            }
+        }
+
     }
 }

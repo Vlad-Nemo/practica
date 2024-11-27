@@ -24,7 +24,6 @@ namespace SystemOfTests
     {
 
         DB ScoreTestTable = new DB(); //Экземпялр класса с методами для подключения к БДшке
-        CurentUser CurrentUser = new CurentUser();
 
         List<string> qest;
         List<short> TrueAnswer;
@@ -291,7 +290,7 @@ namespace SystemOfTests
                 string Score = Ocenka().ToString();
                 
                 DBWrite(Convert.ToInt32(Score), testName_);
-                NavigationService.Navigate(new LaderBoard(Score));
+                NavigationService.Navigate(new LaderBoard(Score, testName_));
             }
         }
 
