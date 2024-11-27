@@ -56,13 +56,7 @@
                         <TextBlock Text="Рейтинг участников" FontSize="23"
                                    FontWeight="Bold" Foreground="Green"/>
                         <ListBox MaxHeight="150" Height="150">
-                            <ListBoxItem Content="Пеухов Владсилав 10"/>
-                            <ListBoxItem Content="Пеухов Владсилав 10"/>
-                            <ListBoxItem Content="Пеухов Владсилав 10"/>
-                            <ListBoxItem Content="Пеухов Владсилав 10"/>
-                            <ListBoxItem Content="Пеухов Владсилав 10"/>
-                            <ListBoxItem Content="Пеухов Владсилав 10"/>
-                            <ListBoxItem Content="Пеухов Владсилав 10"/>
+                            
                         </ListBox>
                     </StackPanel>
                 </Grid>

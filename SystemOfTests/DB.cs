@@ -10,7 +10,7 @@ namespace SystemOfTests
     
     class DB
     {
-        SqlConnection sqlConnection = new SqlConnection(@"Data Source = LAZARPC; Initial Catalog = AppDB; Integrated Security = True");
+        SqlConnection sqlConnection = new SqlConnection(@"Data Source = LAPTOP-7R8D3TBH\SQLEXPRESS; Initial Catalog = AppDB; Integrated Security = True");
 
         public void ConnectToDB()
         {

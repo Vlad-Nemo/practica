@@ -61,7 +61,6 @@
       <DependentUpon>LaderBoard.xaml</DependentUpon>
     </Compile>
     <Compile Include="Qest.cs" />
-    <Compile Include="QestViewModel.cs" />
     <Compile Include="RegWin.xaml.cs">
       <DependentUpon>RegWin.xaml</DependentUpon>
     </Compile>
@@ -71,7 +70,6 @@
     <Compile Include="Tests.xaml.cs">
       <DependentUpon>Tests.xaml</DependentUpon>
     </Compile>
-    <Compile Include="ViewModel.cs" />
     <Page Include="EnterWin.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

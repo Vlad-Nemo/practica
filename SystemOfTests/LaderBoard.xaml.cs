@@ -22,6 +22,7 @@ namespace SystemOfTests
     {
         public LaderBoard(string ocenka)
         {
+            //Заполнение из БД
             InitializeComponent();
             ocenkaUser.Text = $"{ocenka}/10";
         }

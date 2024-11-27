@@ -24,7 +24,7 @@ namespace SystemOfTests
 
     {
         DB UsersDataBase = new DB(); //Экземпялр класса с методами для подключения к БДшке
-
+        CurentUser CurentUser = new CurentUser();
         public EnterWin(string enterLogin)
         {
             InitializeComponent();
@@ -33,13 +33,16 @@ namespace SystemOfTests
 
         private void RegBut_Click(object sender, RoutedEventArgs e)
         {
+
             NavigationService.Navigate(new RegWin());
         }
 
         private void EnterBut_Click(object sender, RoutedEventArgs e)
         {
+
             if (Proverka(login.Text, parol1.Password) == true)
             {
+                CurentUser.name = login.Text;
                 MessageBox.Show("Успешный вход!");
                 NavigationService.Navigate(new TestMainMenu());
             }
@@ -49,11 +52,6 @@ namespace SystemOfTests
             if (log == "" || pas1 == "")
             {
                 MessageBox.Show("Заполните все поля");
-                return false;
-            }
-            else if (pas1 != "123")
-            {
-                MessageBox.Show("Пароли не совпадают");
                 return false;
             }
             else if (DBCheck(log, pas1) == false) //Проверка на наличие пользорвателя в БДшке

@@ -1,5 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.SqlClient;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -20,16 +22,22 @@ namespace SystemOfTests
     /// </summary>
     public partial class Tests : Page
     {
+
+        DB ScoreTestTable = new DB(); //Экземпялр класса с методами для подключения к БДшке
+        CurentUser CurrentUser = new CurentUser();
+
         List<string> qest;
         List<short> TrueAnswer;
         List<short> UserAnswer;
         int index;
         short hod;
+        string testName_;
 
         public Tests(string testName)
         {
             InitializeComponent();
             index = 0;
+            testName_ = testName;
             hod = 0;
             UserAnswer = new List<short> { 0,0,0,0,0,0,0,0,0,0 };
 
@@ -248,7 +256,6 @@ namespace SystemOfTests
                     {
                         case MessageBoxResult.Yes:
                             UserAnswer[hod] = 0;
-
                             index += 4;
                             hod++;
                             Update();
@@ -280,7 +287,11 @@ namespace SystemOfTests
 
                     UserAnswer[hod] = 0;
                 }
-                NavigationService.Navigate(new LaderBoard(Ocenka().ToString()));
+
+                string Score = Ocenka().ToString();
+                
+                DBWrite(Convert.ToInt32(Score), testName_);
+                NavigationService.Navigate(new LaderBoard(Score));
             }
         }
 
@@ -315,6 +326,27 @@ namespace SystemOfTests
             }
 
             return ocenka;
+        }
+        private void DBWrite(int mark, string testName)
+        {
+            
+            try
+            {
+                ScoreTestTable.ConnectToDB();
+                SqlCommand command = new SqlCommand("AddToScoreBoard", ScoreTestTable.GetConnection());
+                command.CommandType = CommandType.StoredProcedure;
+                command.Parameters.Add(new SqlParameter("@Username", CurentUser.name));
+                command.Parameters.Add(new SqlParameter("@Score", mark));
+                command.Parameters.Add(new SqlParameter("@Testname", testName));
+
+                command.ExecuteNonQuery();
+
+                ScoreTestTable.DisconnectDB();
+            }
+            catch 
+            {
+                ScoreTestTable.DisconnectDB();
+            }
         }
     }
 }
