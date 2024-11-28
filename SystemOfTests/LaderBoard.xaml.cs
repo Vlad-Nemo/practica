@@ -42,7 +42,6 @@ namespace SystemOfTests
         private void FillScoreTable(string TestName)
         {
             SqlDataAdapter adapter = new SqlDataAdapter();
-            DataTable Scores = new DataTable();
 
             try
             {
@@ -56,7 +55,7 @@ namespace SystemOfTests
                 SqlDataReader read = command.ExecuteReader(); //Считываем и извлекаем данные
                 while (read.Read()) //Читаем пока есть данные
                 {
-                    LeaderBoard.Items.Add(read.GetValue(0).ToString()); //Добавляем данные в лист итем
+                    LeaderBoard.Items.Add($"{read.GetValue(2).ToString()} {read.GetValue(1).ToString()}"); //Добавляем данные в лист итем
                 }
 
 

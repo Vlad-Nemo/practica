@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\",
+  "WorkspaceRootPath": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|c:\\users\\user\\desktop\\\u043D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\systemoftests\\laderboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\enterwin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:enterwin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|c:\\users\\family\\documents\\github\\practica\\systemoftests\\laderboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:laderboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\testmainmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:testmainmenu.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\laderboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:laderboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\tests.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:tests.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\regwin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:regwin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\regwin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:regwin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\tests.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:tests.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\enterwin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:enterwin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|c:\\users\\family\\documents\\github\\practica\\systemoftests\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,66 +34,84 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "LaderBoard.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\LaderBoard.xaml",
-              "RelativeDocumentMoniker": "LaderBoard.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\LaderBoard.xaml",
-              "RelativeToolTip": "LaderBoard.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-26T10:10:46.384Z",
+              "DocumentIndex": 4,
+              "Title": "Tests.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\Tests.xaml.cs",
+              "RelativeDocumentMoniker": "Tests.xaml.cs",
+              "ToolTip": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\Tests.xaml.cs",
+              "RelativeToolTip": "Tests.xaml.cs",
+              "ViewState": "AgIAAEcBAAAAAAAAAAAqwCQBAABIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T02:56:50.977Z",
+              "IsPinned": true,
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Tests.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\Tests.xaml",
-              "RelativeDocumentMoniker": "Tests.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\Tests.xaml",
-              "RelativeToolTip": "Tests.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-26T10:10:52.949Z",
+              "DocumentIndex": 5,
+              "Title": "DB.cs",
+              "DocumentMoniker": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\DB.cs",
+              "RelativeDocumentMoniker": "DB.cs",
+              "ToolTip": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\DB.cs",
+              "RelativeToolTip": "DB.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T01:55:32.822Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "TestMainMenu.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\TestMainMenu.xaml",
-              "RelativeDocumentMoniker": "TestMainMenu.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\TestMainMenu.xaml",
-              "RelativeToolTip": "TestMainMenu.xaml",
+              "Title": "LaderBoard.xaml",
+              "DocumentMoniker": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\LaderBoard.xaml",
+              "RelativeDocumentMoniker": "LaderBoard.xaml",
+              "ToolTip": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\LaderBoard.xaml",
+              "RelativeToolTip": "LaderBoard.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-26T10:10:52.027Z",
+              "WhenOpened": "2024-11-27T04:33:36.346Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "LaderBoard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\LaderBoard.xaml.cs",
+              "RelativeDocumentMoniker": "LaderBoard.xaml.cs",
+              "ToolTip": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\LaderBoard.xaml.cs",
+              "RelativeToolTip": "LaderBoard.xaml.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAwDkAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T02:49:45.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EnterWin.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\EnterWin.xaml.cs",
+              "RelativeDocumentMoniker": "EnterWin.xaml.cs",
+              "ToolTip": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\EnterWin.xaml.cs",
+              "RelativeToolTip": "EnterWin.xaml.cs",
+              "ViewState": "AgIAACcAAAAAAAAAAAAcwDoAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T02:47:53.064Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "RegWin.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\RegWin.xaml",
-              "RelativeDocumentMoniker": "RegWin.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\RegWin.xaml",
-              "RelativeToolTip": "RegWin.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-20T11:54:25.562Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "EnterWin.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\EnterWin.xaml",
-              "RelativeDocumentMoniker": "EnterWin.xaml",
-              "ToolTip": "C:\\Users\\User\\Desktop\\\u041D\u043E\u0432\u0430\u044F \u043F\u0430\u043F\u043A\u0430\\SystemOfTests\\EnterWin.xaml",
-              "RelativeToolTip": "EnterWin.xaml",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-11-26T10:10:45.32Z",
+              "Title": "RegWin.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\RegWin.xaml.cs",
+              "RelativeDocumentMoniker": "RegWin.xaml.cs",
+              "ToolTip": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\RegWin.xaml.cs",
+              "RelativeToolTip": "RegWin.xaml.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAuwEsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-27T02:45:40.84Z",
               "EditorCaption": ""
             }
           ]

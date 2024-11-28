@@ -1,26 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\User\\Documents\\GitHub\\practica\\SystemOfTests\\",
+  "WorkspaceRootPath": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|c:\\users\\user\\documents\\github\\practica\\systemoftests\\laderboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:laderboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|C:\\Users\\User\\Documents\\GitHub\\practica\\SystemOfTests\\laderboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:laderboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|C:\\Users\\User\\Documents\\GitHub\\practica\\SystemOfTests\\tests.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\tests.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:tests.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|C:\\Users\\User\\Documents\\GitHub\\practica\\SystemOfTests\\enterwin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|c:\\users\\family\\documents\\github\\practica\\systemoftests\\qest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:qest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|c:\\users\\family\\documents\\github\\practica\\systemoftests\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\laderboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:laderboard.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\enterwin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:enterwin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|C:\\Users\\User\\Documents\\GitHub\\practica\\SystemOfTests\\regwin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|c:\\users\\family\\documents\\github\\practica\\systemoftests\\laderboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:laderboard.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\regwin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:regwin.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|c:\\users\\family\\documents\\github\\practica\\systemoftests\\db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{118DF695-E5C3-4644-B8F0-D2618A90E256}|SystemOfTests.csproj|solutionrelative:db.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Tests.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\practica\\SystemOfTests\\Tests.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\Tests.xaml.cs",
               "RelativeDocumentMoniker": "Tests.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\practica\\SystemOfTests\\Tests.xaml.cs",
+              "ToolTip": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\Tests.xaml.cs",
               "RelativeToolTip": "Tests.xaml.cs",
-              "ViewState": "AQIAABcBAAAAAAAAAAAYwCQBAABIAAAA",
+              "ViewState": "AgIAAEgBAAAAAAAAAAA0wCQBAABIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T02:56:50.977Z",
               "IsPinned": true,
@@ -48,11 +60,49 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\MainWindow.xaml",
+              "RelativeToolTip": "MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-11-28T02:40:20.393Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Qest.cs",
+              "DocumentMoniker": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\Qest.cs",
+              "RelativeDocumentMoniker": "Qest.cs",
+              "ToolTip": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\Qest.cs",
+              "RelativeToolTip": "Qest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T02:40:16.251Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "DB.cs",
+              "DocumentMoniker": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\DB.cs",
+              "RelativeDocumentMoniker": "DB.cs",
+              "ToolTip": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\DB.cs",
+              "RelativeToolTip": "DB.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAQwA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-28T01:55:32.822Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
               "Title": "LaderBoard.xaml",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\practica\\SystemOfTests\\LaderBoard.xaml",
+              "DocumentMoniker": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\LaderBoard.xaml",
               "RelativeDocumentMoniker": "LaderBoard.xaml",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\practica\\SystemOfTests\\LaderBoard.xaml",
+              "ToolTip": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\LaderBoard.xaml",
               "RelativeToolTip": "LaderBoard.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-11-27T04:33:36.346Z",
@@ -60,39 +110,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "LaderBoard.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\practica\\SystemOfTests\\LaderBoard.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\LaderBoard.xaml.cs",
               "RelativeDocumentMoniker": "LaderBoard.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\practica\\SystemOfTests\\LaderBoard.xaml.cs",
+              "ToolTip": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\LaderBoard.xaml.cs",
               "RelativeToolTip": "LaderBoard.xaml.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAAwDUAAAAqAAAA",
+              "ViewState": "AgIAADIAAAAAAAAAAAAAwDkAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T02:49:45.904Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "EnterWin.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\practica\\SystemOfTests\\EnterWin.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\EnterWin.xaml.cs",
               "RelativeDocumentMoniker": "EnterWin.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\practica\\SystemOfTests\\EnterWin.xaml.cs",
+              "ToolTip": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\EnterWin.xaml.cs",
               "RelativeToolTip": "EnterWin.xaml.cs",
-              "ViewState": "AQIAAEgAAAAAAAAAAAAowEwAAAAAAAAA",
+              "ViewState": "AgIAAFQAAAAAAAAAAAAYwDoAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T02:47:53.064Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "RegWin.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\User\\Documents\\GitHub\\practica\\SystemOfTests\\RegWin.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\RegWin.xaml.cs",
               "RelativeDocumentMoniker": "RegWin.xaml.cs",
-              "ToolTip": "C:\\Users\\User\\Documents\\GitHub\\practica\\SystemOfTests\\RegWin.xaml.cs",
+              "ToolTip": "C:\\Users\\Family\\Documents\\GitHub\\practica\\SystemOfTests\\RegWin.xaml.cs",
               "RelativeToolTip": "RegWin.xaml.cs",
-              "ViewState": "AQIAAD0AAAAAAAAAAAAuwEsAAAANAAAA",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAuwEsAAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-27T02:45:40.84Z",
               "EditorCaption": ""

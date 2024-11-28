@@ -56,7 +56,7 @@ namespace SystemOfTests
             }
             else if (DBCheck(log, pas1) == false) //Проверка на наличие пользорвателя в БДшке
             {
-                MessageBox.Show("Пользователь с таким именем не обнаружен");
+                MessageBox.Show("Ошибка входа");
                 return false;
             }
             else
